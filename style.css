@@ -1,0 +1,162 @@
+body{
+  margin: 5px;
+  padding: 0;
+  background-color: lavender;
+  font-size: 14px;
+  font-family: 'Lucida Calligraphy';
+  font-weight:700;
+}
+nav {
+  position: fixed;
+  background-color:rgb(85, 54, 113);
+  overflow: hidden;
+  height: 90px;
+  margin-bottom: 20px;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #ddd; /* Change background color on hover */
+  color: black; /* Change text color on hover */
+}
+.containers{
+  margin-left: 75px;
+  display:flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.container{
+  cursor: pointer;
+  margin: 15px;
+  padding: 15px;
+  width: 260px;
+  border :2px solid rgb(72, 39, 103);
+  border-radius: 12px;
+  background-color: rgba(254, 254, 227, 0.273);
+  transition: transform 0.2s ease-in-out;
+}
+.container:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 5px rgb(76, 73, 73);
+}
+.rating{
+  color: gold;
+  margin: 3px;
+}
+.Title{
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 800;
+}
+#unique1{
+  background-color: brown;
+}
+.imagee{
+  width:250px;
+  height:150px;
+  border:2px solid rgba(125, 129, 129, 0.723);
+  border-radius: 10px;   
+}
+.heading{
+  float: right;
+  font-family: 'Tempus Sans ITC';
+  text-align: center;
+  color:rgb(75, 44, 106);
+  border :5px solid rgb(85, 54, 113);
+  border-radius: 20px;
+  background-color: white;
+  margin-right: 10px;
+  font-size: 24px;
+  font-weight: 1500;
+  padding-left:7px;
+  padding-right: 7px;
+}
+.bottom-section {
+  background-color:rgb(85, 54, 113);
+  color:white;
+  padding: 40px 10px;
+  text-align: center;
+  width:92%;
+  border: 1px solid rgb(85, 54, 113);
+  border-radius: 12px;
+}
+
+/* Style for the contact details */
+.contact-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 20px;
+}
+
+.contact-info {
+  margin-left: 20px;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Style for the social icons */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+.intro{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 5px;
+  border: 2px gray;
+  border-radius: 16px;
+  width: 93%;
+  transition: transform 0.2s ease-in-out;
+}
+.intro:hover{
+  box-shadow: 5px 10px 10px rgb(86, 85, 85);
+  transform: scale(1.029);
+  cursor: pointer;
+}
+
+.social-icons a:hover {
+  background-color: #ddd; /* Change background color on hover */
+  color: black; /* Change text color on hover */
+  border: 2px solid white;
+  border-radius: 12px;
+}  
+.topsection{
+  /*margin-top: 20px;*/
+  color:white;
+  padding: 40px 10px;
+  text-align: center;
+  width:92%;
+  border-radius: 12px;
+}
+.middle{
+  position: absolute;
+  font-size: 80px;
+  font-family: 'Tempus Sans ITC';
+  top: 45%;
+  left:40%;
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  transform: rotate(-10deg);
+}
+.middle:hover{
+  text-shadow: 5px 5px 5px white;
+}
